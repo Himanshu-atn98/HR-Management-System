@@ -5,7 +5,7 @@ HR Management-System,It is a desktop application based on Layered Architecture t
 **DATA Layer:** DL is developed in two phases or part.<br/>
 - In a first phase data layer based on the concept of File Handling to store the data in a file.<br/>
 - In a second phase, after developing the all three layers, the data layer is changed separately to store the data in database where MYSQL database is used.This is done without doing any changes in *BL* and *PL*.<br/>
-- In the both part DTO is used to carries data and DAO design pattern is used to isolate the busines-layer from data-layer. 
+- In the both part DTO is used to carries data and DAO design pattern is used to isolate the busines-layer from data-layer.<br/> 
 **Busines Layer:** <br/>
 - POJO and managers are used in business layer to isolate it from presentation-layer.<br/>
 - Data Structures are design to store the data and records at the run time which is fetched from data-layer while populating data-structures.<br/>
