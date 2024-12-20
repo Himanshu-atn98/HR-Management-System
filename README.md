@@ -1,4 +1,10 @@
 # HR-Management-System
+ ### Tools and Technologies used-
+ **Language:** J2SE and Java SWING-AWT <br/>
+ **Database:** MYSQL <br/>
+ **Tools:** Gradle, JDBC <br/>
+ **Libraies:** iText, collection-classes <br/>
+
 ### Description-
 HR Management-System,It is a desktop application based on Layered Architecture to manage and manipulate information of employees.<br/> The entire application is developed in three phases as ***DATA LAYER, BUSINESS LAYER, PRESENTATION LAYER***. <br/> 
 *The first one*<br/>
@@ -14,8 +20,3 @@ HR Management-System,It is a desktop application based on Layered Architecture t
 - Model: fetching the data and manipulating data - *Data Population* is done in model.
 - View: Java Swing and awt is used to design the user-interface.
 
-- ### Tools and Technologies used-
-- **Language:** J2SE and Java SWING-AWT <br/>
-- **Database:** MYSQL <br/>
-- **Tools:** Gradle, JDBC <br/>
-- **Libraies:** iText, collection-classes <br/>
