@@ -7,5 +7,11 @@ HR Management-System,It is a desktop application based on Layered Architecture t
 - In a second phase, after developing the all three layers, the data layer is changed separately to store the data in database where MYSQL database is used.This is done without doing any changes in *BL* and *PL*.<br/>
 - In the both part DTO is used to carries data and DAO design pattern is used to isolate the busines-layer from data-layer. 
 
-**Busines Layer:**
-**Presentation Layer:**
+**Busines Layer:**<br/>
+- POJO and managers are used in business layer to isolate it from presentation-layer.<br/>
+- Data Structures are design to store the data and records at the run time which is fetched from data-layer while populating data-structures.<br/>
+- singleton Pattern is followed to populate data-structures at business-layer.<br/>
+
+- **Presentation Layer:** It is basically based on the concept of *model* and *view*.
+- Model: fetching the data and manipulating data - *Data Population* is done in model.
+- View: Java Swing and awt is used to design the user-interface.
